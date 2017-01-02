@@ -11,3 +11,4 @@ Projects used:
 * [Sprite lib](http://www.widgetworx.com/spritelib/) 
 * [Slick2D](http://slick.ninjacave.com/)
 * [Slick2D-maven](https://github.com/nguillaumin/slick2d-maven)
+* [Nitfy GUI](http://nifty-gui.github.io/nifty-gui/)
