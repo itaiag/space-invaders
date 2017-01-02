@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nifty xmlns="http://nifty-gui.lessvoid.com/nifty-gui">
+	<useStyles filename="nifty-default-styles.xml" />
+	<useControls filename="nifty-default-controls.xml" />
+
+	<screen id="settings" controller="agmon.invaders.state.SettingsContoller">
+		<layer childLayout="center">
+			<panel width="90%" height="90%" align="center" valign="center"
+				childLayout="vertical" backgroundColor="#55a5" padding="10">
+
+				<panel height="*" backgroundColor="#55a5" padding="10"
+					childLayout="vertical">
+					<panel valign="center" width="*" padding="10" childLayout="horizontal">
+						<control name="label" text="Control" />
+						<panel width="10px" />
+						<control id="controlDropDown" name="dropDown" label="dropDown" />
+					</panel>
+					<panel valign="center" width="*" padding="10" childLayout="horizontal">
+						<control name="label" text="Difficulty" />
+						<panel width="10px" />
+						<control id="difficultyDropDown" name="dropDown" label="dropDown" />
+					</panel>
+				</panel>
+				<panel height="10px" />
+				<panel height="21px" childLayout="horizontal">
+					<!-- control id="cancelButton" name="button" label="Cancel" /-->
+					<panel width="*" />
+					<control id="okButton" name="button" label="OK" />
+				</panel>
+			</panel>
+		</layer>
+	</screen>
+</nifty>
